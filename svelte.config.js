@@ -15,7 +15,7 @@ const config = {
       strict: true,
     }),
     paths: {
-      base: process.argv.includes("dev") ? "" : "/",
+      base: "",
     },
     version: {
       // pollInterval: 100000,
