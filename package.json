@@ -1,0 +1,27 @@
+{
+	"name": "dnnnvx",
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"deploy": "npx gh-pages -d build",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@sveltejs/adapter-static": "^3.0.6",
+		"@sveltejs/kit": "^2.10.1",
+		"@sveltejs/vite-plugin-svelte": "^5.0.0",
+		"gh-pages": "^6.2.0",
+		"svelte": "^5.11.0",
+		"svelte-check": "^4.1.1",
+		"typescript": "^5.7.2",
+		"vite": "^6.0.0"
+	},
+	"dependencies": {
+		"neverthrow": "^8.1.1"
+	}
+}
